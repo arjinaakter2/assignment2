@@ -5,9 +5,13 @@
     border: 2px solid black;
     border-radius: 15px;
     /*Width:1321px;*/
-   Height: 500px;px;
-    Top:50px;
-   Left:140px;
+   Height: 500px;
+   width: 1250px;
+    Top:80px;
+   /*Left:190px;*/
+   margin-left: 100px;
+   margin-top: 50px;
+
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .div1{
@@ -123,6 +127,8 @@ width: 312px;
 height: 175px;
 /*left: 476px;
 top: 826px;*/
+margin-left: 10px;
+margin-top: 10px;
 
 
 border-radius: 10px 10px 0px 0px;
@@ -154,8 +160,10 @@ color: #161616;
  .transfer{
     width: 312px;
 height: 362px;
-left: 812px;
-top: 1212px;
+/*left: 812px;
+top: 1212px;*/
+left:300px ;
+top:500px ;
 
 
  }
@@ -167,10 +175,110 @@ top: 1528px;
 display: flex;
  }
 .all{
-margin-left: 150px;
-margin-top: 50px;
+margin-left: 30px;
+margin-top: 30px;
 background-color: white;
 }
 .div3{
     box-shadow: 2px 2px white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+main{
+    display: center;
+    box-shadow: 2px 2px whitesmoke;
+    margin-top: 20px;
+}
+
+/******
+main part***/
+
+.man{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 90%;
+    height: 90%;
+    
+}
+.ass{
+    width: 10%;
+    height: 10%;
+    margin-top: 15px;
+}
+main{
+    height: 1440px ;
+    width: 1400px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-right: 10px;
+}
+/***** footer part*/
+footer{
+    background-color: black;
+    
+
+
+}
+
+#g{
+   /* position: absolute;*/
+    width: 95px;
+    height: 60px;
+    left: 753px;
+    top: 2223px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.foot{
+   text-align: center;
+    color: white;
+    margin-top: 130px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 50px;
+    /*position: absolute;*/
+
+    
+}
+footer
+{ 
+    /*background-color:black;*/
+    position: absolute;
+width: 1600px;
+height: 444px;
+left: 0px;
+top: 2090px;
+
+background: #161616;
+}
+hr{
+    width: 1320px;
+height: 0px;
+left: 140px;
+top: 2330px;
+
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.ber{
+    display: flex;
+    height: 24px;
+    width: 894px;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+.ber a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 80px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
