@@ -18,6 +18,9 @@
     background-color: aqua;
     transition-duration: 2s;
 }
+.re{
+    visibility: hidden;
+}
 .div1{
     color: white;
     font-family: 'Courier New', Courier, monospace;
