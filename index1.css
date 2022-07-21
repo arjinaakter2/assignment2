@@ -144,38 +144,36 @@ main{
 }
 /***
 style for Brazil part***/
-.Brazil{
-    display: flex;
-}
-.vejal{
-    
-    margin-top: 10px;
-    margin-left: 10px;
-}
 
-/******
-main part***/
 
-.man{
-    height: 2880px ;
-            width: 2800px;
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            padding-right: 5px;
-    
-    
-}
+
 .ass{
     width: 10%;;
     height: 10%;
     margin-top: 15px;
 }
 main{
-    height: 1440px ;
+    height: 400px ;
     width: 1400px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     padding-right: 10px;
+}
+
+.line-up
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
+}
+.items{
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 2px 2px whitesmoke;
 }
 /***** footer part*/
 footer{
@@ -214,11 +212,16 @@ footer{
    text-align: center;
     color: white;
     margin-top: 130px;
+    margin-left: 40px;
+    margin-right: 120px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 50px;
     /*position: absolute;*/
 
     
+}
+.re{
+    visibility: hidden;
 }
 footer
 { 
@@ -230,6 +233,7 @@ left: 0px;
 top: 2090px;
 
 background: #161616;
+margin-top: -600px;
 }
 hr{
     width: 1320px;
