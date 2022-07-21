@@ -9,14 +9,14 @@
    width: 1250px;
     Top:80px;
    /*Left:190px;*/
-   margin-left: 100px;
+   margin-left: 105px;
    margin-top: 50px;
 
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container:hover{
     background-color: aqua;
-    transition-duration: 2s;
+    transition-duration: 5s;
 }
 .div1{
     color: white;
@@ -61,6 +61,8 @@ image:hover{
     transition: margin-left:80px,10s;
     transform: rotate(180deg);
 }
+/*****
+header  ends***/
 /* main section*/
 .div2{
     background-color: black;
@@ -122,86 +124,45 @@ top: 856px;*/
     
 }
 
-/* style for transfer part*/
-.image
-{
-/*height: 245px;
-width: 155px;*/
-width: 312px;
-height: 175px;
-/*left: 476px;
-top: 826px;*/
-margin-left: 10px;
-margin-top: 10px;
+/* style for transfer p*/
 
-
-border-radius: 10px 10px 0px 0px;
- 
-}
-/* style for transfer button*/
- .transbtn{
-    width: 67px;
-height: 24px;
-/*left: 513px;*/
-/*top: 1411px;*/
- }
-
- .transpera{
-    
-width: 272px;
-height: 54px;
-left: 496px;
-top: 1454px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-
-color: #161616;
- } 
- .transfer{
-    width: 312px;
-height: 362px;
-/*left: 812px;
-top: 1212px;*/
-left:300px ;
-top:500px ;
-
-
- }
- .tm{
-    width: 143px;
-height: 26px;
-left: 832px;
-top: 1528px;
-display: flex;
- }
-.all{
-margin-left: 30px;
-margin-top: 30px;
-background-color: white;
-}
 .div3{
     box-shadow: 2px 2px white;
     margin-top: 20px;
     margin-left: 10px;
 }
+.div3{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    display: inline;
+}
 main{
     display: center;
-    box-shadow: 2px 2px whitesmoke;
+    
     margin-top: 20px;
+}
+/***
+style for Brazil part***/
+.Brazil{
+    display: flex;
+}
+.vejal{
+    
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 /******
 main part***/
 
 .man{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width: 90%;
-    height: 90%;
+    height: 2880px ;
+            width: 2800px;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            padding-right: 5px;
+    
     
 }
 .ass{
@@ -244,6 +205,10 @@ footer{
     text-align: center;
     
     color: #FFFFFF;
+}
+.div4{
+    float: left;
+    
 }
 .foot{
    text-align: center;
